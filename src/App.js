@@ -1,10 +1,13 @@
 import "./App.scss"
+import Header from "./components/Header"
+import Characters from "./components/Characters"
 
 function App(){
     return(
-        <div>
-            <h1>React + Webpack + Sass</h1>
-        </div>
+        <>
+            <Header title="Rick and Morty API"/>
+            <Characters />
+        </>
     )
 }
 
